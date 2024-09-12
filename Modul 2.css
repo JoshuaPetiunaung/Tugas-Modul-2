@@ -93,15 +93,27 @@ header p {
 }
 
 .london {
-    background-image: url('London.jpeg');
+    background-image: url('london.jpeg');
 }
 
 .paris {
-    background-image: url('Paris.jpeg');
+    background-image: url('paris.jpeg');
 }
 
 .tokyo {
-    background-image: url('Tokyo.jpeg');
+    background-image: url('tokyo.jpeg');
+}
+
+.dubai {
+    background-image: url('dubai.jpeg');
+}
+
+.newyork {
+    background-image: url('New york.jpeg');
+}
+
+.singapore {
+    background-image: url('singapore.jpeg');
 }
 
 .instagram-button {
@@ -116,9 +128,8 @@ header p {
 }
 
 .instagram-button:hover {
-    background-color: #ffffff; /* Slightly darker Instagram color */
+    background-color: #ffffff;
 }
-
 
 .popup-overlay {
     visibility: hidden;
@@ -142,7 +153,7 @@ header p {
 
 .popup-content {
     position: relative;
-    background-color: rgba(255, 255, 255, 0.947); /* Warna putih dengan transparansi 80% */
+    background-color: rgba(255, 255, 255, 0.947);
     padding: 50px;
     border-radius: 20px;
     text-align: center;
@@ -205,7 +216,6 @@ footer p {
     margin: 0;
 }
 
-
 @media (max-width: 768px) {
     header h1 {
         font-size: 2.5em;
@@ -219,4 +229,25 @@ footer p {
         padding: 30px;
         max-width: 90%;
     }
+}
+
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#city-search {
+    width: 60%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+#city-search:focus {
+    border-color: #333;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
