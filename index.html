@@ -10,9 +10,23 @@
 <body>
     <div class="container">
         <header>
-            <h1>About the City</h1>
+            <h1>City</h1>
             <p>Discover the World's Most Iconic Cities</p>
         </header>
+
+        <section class="about-section">
+            <div class="about-container">
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>Kami hadir untuk membawa keindahan dan keunikan kota-kota di seluruh dunia lebih dekat dengan Anda. Dari sudut-sudut yang tersembunyi hingga landmark yang mendunia, kami memberikan informasi yang kaya dan mendalam tentang setiap kota, baik dari segi sejarah, budaya, hingga daya tarik lokalnya.</p>
+                    <h3>Our mission</h3>
+                    <p>Misi kami adalah menghubungkan orang-orang dengan cerita dan keajaiban dari kota-kota di seluruh penjuru dunia. Kami percaya bahwa setiap kota memiliki cerita yang layak untuk dijelajahi, dan melalui platform kami, kami membantu Anda menemukan kekayaan pengalaman di setiap sudut dunia.</p>
+                </div>
+                <div class="about-image">
+                    <img src="World.jpeg" alt="About Us Image" />
+                </div>
+            </div>
+        </section>        
 
         <div class="search-container">
             <input type="text" id="city-search" list="cities" placeholder="Search for a city...">
@@ -23,6 +37,9 @@
                 <option value="Dubai">
                 <option value="New York">
                 <option value="Singapore">
+                <option value="Swiss">
+                <option value="Indonesia">
+                <option value="Brazil">
             </datalist>
         </div>
 
@@ -68,12 +85,57 @@
                     <p>A stunning blend of greenery, modernity, and luxury living.</p>
                 </div>
             </a>
+
+            <a href="#popup-swiss" class="city-box swiss" id="swiss">
+                <div class="city-info">
+                    <h3>Swiss</h3>
+                    <p>Embrace the majestic landscapes and serene beauty of Switzerland.</p>
+                </div>
+            </a>
+
+            <a href="#popup-indonesia" class="city-box indonesia" id="indonesia">
+                <div class="city-info">
+                    <h3>Indonesia</h3>
+                    <p>Explore the diverse natural wonders and cultural heritage.</p>
+                </div>
+            </a>
+
+            <a href="#popup-brazil" class="city-box brazil" id="brazil">
+                <div class="city-info">
+                    <h3>Brazil</h3>
+                    <p>Vibrant culture, stunning landscapes, and the iconic Amazon rainforest.</p>
+                </div>
+            </a>
         </div>
 
         <div id="popup-london" class="popup-overlay">
             <div class="popup-content">
                 <h2>London</h2>
                 <p>London, ibu kota Inggris, dikenal dengan landmark ikonik seperti Menara London dan Big Ben. Kota ini menawarkan museum terkenal seperti British Museum dan Tate Modern, serta beragam kuliner dari pasar Borough Market hingga restoran mewah. London juga merupakan pusat belanja dengan kawasan seperti Oxford Street dan Harrods, serta kehidupan budaya yang hidup di West End dan daerah seperti Soho. Taman-taman seperti Hyde Park memberikan ruang hijau yang indah di tengah kota, sementara arsitektur modern seperti The Shard menambah pesona kota ini.</p>
+                <a class="close-popup popup-close" href="#">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup-indonesia" class="popup-overlay">
+            <div class="popup-content">
+                <h2>Indonesia</h2>
+                <p>Indonesia, dengan lebih dari 17.000 pulau, menawarkan keindahan alam yang beragam dari pantai-pantai Bali yang terkenal hingga danau Toba di Sumatera dan pegunungan serta hutan tropis di Papua. Tempat-tempat seperti Raja Ampat, Komodo, dan Bromo dikenal di seluruh dunia karena keindahan alamnya yang luar biasa, menjadikan Indonesia salah satu destinasi wisata alam terbaik di dunia.</p>
+                <a class="close-popup popup-close" href="#">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup-brazil" class="popup-overlay">
+            <div class="popup-content">
+                <h2>Brazil</h2>
+                <p>Brazil adalah negara yang kaya akan budaya dan keindahan alam. Dari pantai Copacabana di Rio de Janeiro hingga hutan hujan Amazon yang luas, Brazil menawarkan pemandangan alam yang menakjubkan dan keanekaragaman hayati yang luar biasa. Kota-kota seperti São Paulo dan Salvador juga terkenal dengan kehidupan malam yang semarak dan festival yang berwarna-warni.</p>
+                <a class="close-popup popup-close" href="#">&times;</a>
+            </div>
+        </div>
+
+        <div id="popup-swiss" class="popup-overlay">
+            <div class="popup-content">
+                <h2>Swiss</h2>
+                <p>Swiss terkenal dengan keindahan alamnya yang memukau, seperti Pegunungan Alpen yang megah, danau-danau yang jernih, dan desa-desa yang indah. Dari kota-kota seperti Zurich dan Geneva hingga keindahan alam Luzern dan Interlaken, Swiss menawarkan pengalaman yang tak terlupakan dengan pemandangan yang luar biasa dan kegiatan luar ruangan seperti hiking, ski, dan berlayar.</p>
                 <a class="close-popup popup-close" href="#">&times;</a>
             </div>
         </div>
